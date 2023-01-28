@@ -1,0 +1,37 @@
+
+
+
+@media screen and (max-width:1000px)
+{
+
+    .big-text
+    {
+        color: var(--color-VeryLightGrey);
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .card-box
+    {
+        height: 100% !important;
+        width: 100%;
+        overflow: auto;
+        margin: 0 auto;;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .cards
+        {
+            display: flex;
+            flex-direction: column;
+            height: 80%;
+            margin: auto;
+        } 
+
+    }
+
+
+}
+
+
